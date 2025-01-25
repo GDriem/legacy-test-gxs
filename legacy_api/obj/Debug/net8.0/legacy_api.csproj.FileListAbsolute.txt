@@ -36,3 +36,8 @@ C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\bin\Debug\net8
 C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\obj\Debug\net8.0\legacy_api.csproj.AssemblyReference.cache
 C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\obj\Debug\net8.0\legacy_api.csproj.Up2Date
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\obj\Debug\net8.0\legacy_api.MvcApplicationPartsAssemblyInfo.cs
