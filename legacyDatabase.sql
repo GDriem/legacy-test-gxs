@@ -1,12 +1,16 @@
 CREATE TABLE Orders (
     OrderID INT PRIMARY KEY,
-    CustomerName NVARCHAR(100),
-    CustomerEmail NVARCHAR(100),
-    ProductID INT,
-    ProductName NVARCHAR(100),
-    Quantity INT,
+    CustomerID INT FOREIGN KEY REFERENCES Customers(CustomerID),
     TotalPrice DECIMAL(10, 2),
     OrderDate DATETIME
+);
+
+CREATE TABLE OrderDetails (
+    OrderDetailID INT PRIMARY KEY,
+    OrderID INT FOREIGN KEY REFERENCES Orders(OrderID),
+    ProductID INT FOREIGN KEY REFERENCES Products(ProductID),
+    Quantity INT,
+    LinePrice DECIMAL(10, 2) -- Calculado como UnitPrice * Quantity
 );
 
 CREATE TABLE Customers (
@@ -36,3 +40,8 @@ CREATE TABLE OrderAssignments (
     EmployeeID INT FOREIGN KEY REFERENCES Employees(EmployeeID),
     AssignmentDate DATETIME
 );
+
+
+-- Cree la tabla de detalle de ordenes para mejorar la normalización
+-- asi tiene mas legibilidad y mantenibilidad
+-- Borre los campos repetidos de la tabla Orders por que ya estan en la tabla de Customers
