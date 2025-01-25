@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>legacy_api</name>
+    </assembly>
+    <members>
+        <member name="M:LegacyAPI.Controllers.OrdersController.GetOrders">
+            <summary>
+            Retrieves all orders.
+            </summary>
+            <returns>The list of orders.</returns>
+        </member>
+        <member name="M:LegacyAPI.Controllers.OrdersController.GetOrderById(System.Int32)">
+            <summary>
+            Retrieves an order by its ID.
+            </summary>
+            <param name="id">The ID of the order.</param>
+            <returns>The order with the specified ID.</returns>
+        </member>
+        <member name="M:LegacyAPI.Controllers.OrdersController.CreateOrder(LegacyAPI.Models.Order)">
+            <summary>
+            Creates a new order.
+            </summary>
+            <param name="newOrder">The new order to create.</param>
+            <returns>The created order.</returns>
+        </member>
+        <member name="M:LegacyAPI.Controllers.OrdersController.UpdateOrder(System.Int32,LegacyAPI.Models.Order)">
+            <summary>
+            Updates an existing order.
+            </summary>
+            <param name="id">The ID of the order to update.</param>
+            <param name="updatedOrder">The updated order.</param>
+            <returns>No content.</returns>
+        </member>
+        <member name="M:LegacyAPI.Controllers.OrdersController.DeleteOrder(System.Int32)">
+            <summary>
+            Deletes an order.
+            </summary>
+            <param name="id">The ID of the order to delete.</param>
+            <returns>No content.</returns>
+        </member>
+    </members>
+</doc>

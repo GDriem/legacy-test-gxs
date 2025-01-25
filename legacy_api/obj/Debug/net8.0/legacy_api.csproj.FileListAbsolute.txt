@@ -41,3 +41,5 @@ C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\bin\Debug\net8
 C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\obj\Debug\net8.0\legacy_api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\bin\Debug\net8.0\legacy_api.xml
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\obj\Debug\net8.0\legacy_api.xml
