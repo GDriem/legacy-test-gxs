@@ -1,3 +1,5 @@
+using System;
+
 namespace LegacyAPI.Models
 {
     public class Order
