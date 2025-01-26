@@ -1,0 +1,16 @@
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Application\bin\Debug\net8.0\Legacy_api.Application.deps.json
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Application\bin\Debug\net8.0\Legacy_api.Application.dll
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Application\bin\Debug\net8.0\Legacy_api.Application.pdb
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Application\bin\Debug\net8.0\Legacy_api.Models.dll
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Application\bin\Debug\net8.0\Legacy_api.Models.pdb
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Application\obj\Debug\net8.0\Legacy_api.Application.csproj.AssemblyReference.cache
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Application\obj\Debug\net8.0\Legacy_api.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Application\obj\Debug\net8.0\Legacy_api.Application.AssemblyInfoInputs.cache
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Application\obj\Debug\net8.0\Legacy_api.Application.AssemblyInfo.cs
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Application\obj\Debug\net8.0\Legacy_api.Application.csproj.CoreCompileInputs.cache
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Application\obj\Debug\net8.0\Legacy_api.Application.sourcelink.json
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Application\obj\Debug\net8.0\Legacy_a.3549E589.Up2Date
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Application\obj\Debug\net8.0\Legacy_api.Application.dll
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Application\obj\Debug\net8.0\refint\Legacy_api.Application.dll
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Application\obj\Debug\net8.0\Legacy_api.Application.pdb
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Application\obj\Debug\net8.0\ref\Legacy_api.Application.dll

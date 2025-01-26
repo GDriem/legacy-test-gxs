@@ -5,7 +5,15 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.ReDoc" Version="7.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Legacy_api.Application\Legacy_api.Application.csproj" />
+    <ProjectReference Include="..\Legacy_api.Services\Legacy_api.Services.csproj" />
   </ItemGroup>
 </Project>

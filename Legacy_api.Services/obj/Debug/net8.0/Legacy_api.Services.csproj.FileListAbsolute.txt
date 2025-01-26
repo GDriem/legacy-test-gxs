@@ -1,0 +1,12 @@
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Services\bin\Debug\net8.0\Legacy_api.Services.deps.json
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Services\bin\Debug\net8.0\Legacy_api.Services.dll
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Services\bin\Debug\net8.0\Legacy_api.Services.pdb
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Services\obj\Debug\net8.0\Legacy_api.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Services\obj\Debug\net8.0\Legacy_api.Services.AssemblyInfoInputs.cache
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Services\obj\Debug\net8.0\Legacy_api.Services.AssemblyInfo.cs
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Services\obj\Debug\net8.0\Legacy_api.Services.csproj.CoreCompileInputs.cache
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Services\obj\Debug\net8.0\Legacy_api.Services.sourcelink.json
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Services\obj\Debug\net8.0\Legacy_api.Services.dll
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Services\obj\Debug\net8.0\refint\Legacy_api.Services.dll
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Services\obj\Debug\net8.0\Legacy_api.Services.pdb
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\Legacy_api.Services\obj\Debug\net8.0\ref\Legacy_api.Services.dll

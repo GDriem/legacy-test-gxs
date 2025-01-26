@@ -5,11 +5,14 @@ using System.IO;
 using System.Reflection;
 using System;
 using Microsoft.Extensions.Options;
+using Legacy_api.Application;
+using Legacy_api.Application.Orders;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+builder.Services.AddScoped<IOrdersApplication, OrdersApplication>();
 
 builder.Services.AddEndpointsApiExplorer(); 
 builder.Services.AddSwaggerGen(c =>

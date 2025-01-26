@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Legacy_api.Application/1.0.0": {
+        "dependencies": {
+          "Legacy_api.Models": "1.0.0"
+        },
+        "runtime": {
+          "Legacy_api.Application.dll": {}
+        }
+      },
+      "Legacy_api.Models/1.0.0": {
+        "runtime": {
+          "Legacy_api.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Legacy_api.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Legacy_api.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
