@@ -17,5 +17,12 @@
             <param name="id">The ID of the order.</param>
             <returns>The order with the specified ID.</returns>
         </member>
+        <member name="M:LegacyAPI.Controllers.OrdersController.CreateOrder(Legacy_api.Models.OrdersModel.Order)">
+            <summary>
+            Creates a new order.
+            </summary>
+            <param name="newOrder">The new order to create.</param>
+            <returns>The created order.</returns>
+        </member>
     </members>
 </doc>

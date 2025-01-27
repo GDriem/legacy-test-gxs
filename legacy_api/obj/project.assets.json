@@ -1782,6 +1782,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Legacy_api.Application >= 1.0.0",
+      "Legacy_api.Models >= 1.0.0",
       "Legacy_api.Services >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.1",
       "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.1",
@@ -1819,6 +1820,9 @@
           "projectReferences": {
             "C:\\Users\\scspsti10\\source\\repos\\GDriem\\legacy-test-gxs\\Legacy_api.Application\\Legacy_api.Application.csproj": {
               "projectPath": "C:\\Users\\scspsti10\\source\\repos\\GDriem\\legacy-test-gxs\\Legacy_api.Application\\Legacy_api.Application.csproj"
+            },
+            "C:\\Users\\scspsti10\\source\\repos\\GDriem\\legacy-test-gxs\\Legacy_api.Models\\Legacy_api.Models.csproj": {
+              "projectPath": "C:\\Users\\scspsti10\\source\\repos\\GDriem\\legacy-test-gxs\\Legacy_api.Models\\Legacy_api.Models.csproj"
             },
             "C:\\Users\\scspsti10\\source\\repos\\GDriem\\legacy-test-gxs\\Legacy_api.Services\\Legacy_api.Services.csproj": {
               "projectPath": "C:\\Users\\scspsti10\\source\\repos\\GDriem\\legacy-test-gxs\\Legacy_api.Services\\Legacy_api.Services.csproj"
