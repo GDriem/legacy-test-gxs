@@ -1,26 +1,24 @@
-# Usar una imagen base de .NET
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
-WORKDIR /app
-EXPOSE 80
-
-# Usar la imagen base de SDK para compilación
+# Usa la imagen oficial de .NET para compilación
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copiar los archivos de proyecto y restaurar las dependencias
-COPY ["legacy_api/legacy_api.csproj", "legacy_api/"]
-RUN dotnet restore "legacy_api/legacy_api.csproj"
+# Copia los archivos de proyecto y restaura dependencias
+COPY *.sln ./
+COPY legacy_api/*.csproj ./legacy_api/
+RUN dotnet restore legacy_api/legacy_api.csproj
 
-# Copiar el resto del código y construir el proyecto
-COPY . .
-WORKDIR "/src/legacy_api"
-RUN dotnet build "legacy_api.csproj" -c Release -o /app/build
+# Copia el resto de los archivos y construye la aplicación
+COPY legacy_api/. ./legacy_api/
+WORKDIR /src/legacy_api
+RUN dotnet publish -c Release -o /app/publish
 
-FROM build AS publish
-RUN dotnet publish "legacy_api.csproj" -c Release -o /app/publish
-
-# Definir la etapa de ejecución
-FROM base AS final
+# Usa una imagen ligera para la ejecución
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
-COPY --from=publish /app/publish .
+COPY --from=build /app/publish ./
+
+# Expone el puerto 80 para la aplicación
+EXPOSE 80
+
+# Comando para ejecutar la aplicación
 ENTRYPOINT ["dotnet", "legacy_api.dll"]
