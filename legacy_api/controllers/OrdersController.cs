@@ -1,9 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
-using LegacyAPI.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System;
 using Legacy_api.Application.Orders;
+using Legacy_api.Models.OrdersModel;
+using System.Threading.Tasks;
 
 namespace LegacyAPI.Controllers
 {
@@ -43,18 +44,20 @@ namespace LegacyAPI.Controllers
             return Ok(product);
         }
 
-        ///// <summary>
-        ///// Creates a new order.
-        ///// </summary>
-        ///// <param name="newOrder">The new order to create.</param>
-        ///// <returns>The created order.</returns>
-        //[HttpPost]
-        //public IActionResult CreateOrder([FromBody] Order newOrder)
-        //{
-        //    newOrder.OrderID = Orders.Count + 1;
-        //    Orders.Add(newOrder);
-        //    return CreatedAtAction(nameof(GetOrderById), new { id = newOrder.OrderID }, newOrder);
-        //}
+        /// <summary>
+        /// Creates a new order.
+        /// </summary>
+        /// <param name="newOrder">The new order to create.</param>
+        /// <returns>The created order.</returns>
+        [HttpPost]
+        public IActionResult CreateOrder([FromBody] Order newOrder)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            _orderService.addOrder(newOrder);
+            return CreatedAtAction(nameof(GetOrderById), new { id = newOrder.OrderID }, newOrder);
+        }
 
         ///// <summary>
         ///// Updates an existing order.
@@ -62,37 +65,36 @@ namespace LegacyAPI.Controllers
         ///// <param name="id">The ID of the order to update.</param>
         ///// <param name="updatedOrder">The updated order.</param>
         ///// <returns>No content.</returns>
-        //[HttpPut("{id}")]
-        //public IActionResult UpdateOrder(int id, [FromBody] Order updatedOrder)
-        //{
-        //    var order = Orders.FirstOrDefault(o => o.OrderID == id);
-        //    if (order == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    order.CustomerID = updatedOrder.CustomerID;
-        //    order.ProductID = updatedOrder.ProductID;
-        //    order.Quantity = updatedOrder.Quantity;
-        //    order.TotalPrice = updatedOrder.TotalPrice;
-        //    order.OrderDate = updatedOrder.OrderDate;
-        //    return NoContent();
-        //}
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateOrder(int id, [FromBody] Order updatedOrder)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var result = await _orderService.updateOrder(id, updatedOrder);
+
+            if (!result.Success)
+                return result.StatusCode == 404
+                    ? NotFound(result.Message)
+                    : BadRequest(result.Message);
+
+            return Ok(new { Message = result.Message });
+        }
+
+
 
         ///// <summary>
         ///// Deletes an order.
         ///// </summary>
         ///// <param name="id">The ID of the order to delete.</param>
         ///// <returns>No content.</returns>
-        //[HttpDelete("{id}")]
-        //public IActionResult DeleteOrder(int id)
-        //{
-        //    var order = Orders.FirstOrDefault(o => o.OrderID == id);
-        //    if (order == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    Orders.Remove(order);
-        //    return NoContent();
-        //}
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteOrderAsync(int id)
+        {
+            if (await _orderService.deleteOrder(id))
+                return Ok(new { Message = "Orden Eliminada con exito" });
+
+            return NotFound(new { message = "Producto no encontrado" });
+        }
     }
 }

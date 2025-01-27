@@ -1,6 +1,6 @@
 using System;
 
-namespace LegacyAPI.Models
+namespace Legacy_api.Models.OrdersModel
 {
     public class Order
     {
