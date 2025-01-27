@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Legacy_api.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd0a842ea5e2507f856819a242fb808414b9fc49")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dacbf9c41045d8c96f434e7613ecf0c5848d000e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Legacy_api.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Legacy_api.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

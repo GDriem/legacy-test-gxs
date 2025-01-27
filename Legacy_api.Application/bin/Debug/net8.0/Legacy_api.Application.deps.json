@@ -16,7 +16,10 @@
       },
       "Legacy_api.Models/1.0.0": {
         "runtime": {
-          "Legacy_api.Models.dll": {}
+          "Legacy_api.Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

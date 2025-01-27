@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  legacy_api:
+    build:
+      context: .
+      dockerfile: legacy_api/Dockerfile
+    ports:
+      - "8080:80"  
+    networks:
+      - legacy_network
+
+
+networks:
+  legacy_network:
+    driver: bridge

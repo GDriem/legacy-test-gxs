@@ -24,5 +24,140 @@
             <param name="newOrder">The new order to create.</param>
             <returns>The created order.</returns>
         </member>
+        <member name="T:LegacyAPI.Models.Order">
+            <summary>
+            Represents an order.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Order.OrderID">
+            <summary>
+            Gets or sets the order ID.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Order.CustomerID">
+            <summary>
+            Gets or sets the customer ID.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Order.ProductID">
+            <summary>
+            Gets or sets the product ID.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Order.Quantity">
+            <summary>
+            Gets or sets the quantity.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Order.TotalPrice">
+            <summary>
+            Gets or sets the total price.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Order.OrderDate">
+            <summary>
+            Gets or sets the order date.
+            </summary>
+        </member>
+        <member name="T:LegacyAPI.Models.Customer">
+            <summary>
+            Represents a customer.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Customer.CustomerID">
+            <summary>
+            Gets or sets the customer ID.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Customer.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Customer.Email">
+            <summary>
+            Gets or sets the email.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Customer.PhoneNumber">
+            <summary>
+            Gets or sets the phone number.
+            </summary>
+        </member>
+        <member name="T:LegacyAPI.Models.Product">
+            <summary>
+            Represents a product.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Product.ProductID">
+            <summary>
+            Gets or sets the product ID.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Product.ProductName">
+            <summary>
+            Gets or sets the product name.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Product.UnitPrice">
+            <summary>
+            Gets or sets the unit price.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Product.StockQuantity">
+            <summary>
+            Gets or sets the stock quantity.
+            </summary>
+        </member>
+        <member name="T:LegacyAPI.Models.Employee">
+            <summary>
+            Represents an employee.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Employee.EmployeeID">
+            <summary>
+            Gets or sets the employee ID.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Employee.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Employee.Role">
+            <summary>
+            Gets or sets the role.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.Employee.HireDate">
+            <summary>
+            Gets or sets the hire date.
+            </summary>
+        </member>
+        <member name="T:LegacyAPI.Models.OrderAssignment">
+            <summary>
+            Represents an order assignment.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.OrderAssignment.AssignmentID">
+            <summary>
+            Gets or sets the assignment ID.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.OrderAssignment.OrderID">
+            <summary>
+            Gets or sets the order ID.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.OrderAssignment.EmployeeID">
+            <summary>
+            Gets or sets the employee ID.
+            </summary>
+        </member>
+        <member name="P:LegacyAPI.Models.OrderAssignment.AssignmentDate">
+            <summary>
+            Gets or sets the assignment date.
+            </summary>
+        </member>
     </members>
 </doc>

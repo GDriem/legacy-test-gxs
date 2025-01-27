@@ -82,3 +82,7 @@ C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\bin\Debug\net8
 C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\bin\Debug\net8.0\Legacy_api.Application.pdb
 C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\bin\Debug\net8.0\Legacy_api.Services.pdb
 C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\bin\Debug\net8.0\Legacy_api.Models.pdb
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\bin\Debug\net8.0\legacy_api.staticwebassets.endpoints.json
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\obj\Debug\net8.0\staticwebassets\msbuild.legacy_api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\scspsti10\source\repos\GDriem\legacy-test-gxs\legacy_api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

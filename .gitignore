@@ -5,3 +5,10 @@
 /.vs
 /legacy_api/.vs
 /legacy_api/bin/Debug/net8.0
+/legacy_api/obj
+/legacy_api.Application/obj
+/legacy_api.Application/bin/Debug/net8.0
+/legacy_api.Services/obj
+/legacy_api.Services/bin/Debug/net8.0
+/legacy_api.Models/obj
+/legacy_api.Models/bin/Debug/net8.0
